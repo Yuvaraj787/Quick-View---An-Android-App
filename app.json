@@ -1,7 +1,7 @@
 {
   "expo": {
     "name": "quick_space",
-    "slug": "quick_space",
+    "slug": "quick-view",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -25,6 +25,12 @@
     },
     "web": {
       "favicon": "./assets/favicon.png"
-    }
+    },
+    "extra": {
+      "eas": {
+        "projectId": "19bb3592-3af0-4544-ae21-eea5034933a6"
+      }
+    },
+    "owner": "yuvaraj787"
   }
 }
