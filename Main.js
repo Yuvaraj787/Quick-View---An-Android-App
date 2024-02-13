@@ -47,7 +47,7 @@ export  function Main({navigation}) {
     return (
       <View style={styles.container}>
         <View style={styles.headbox}>
-          <Text style={styles.head}>Space</Text>
+          <Text style={styles.head}>Quick View</Text>
         </View>
         <View style={styles.bodybox}>
           {items.map((item,ind) => {

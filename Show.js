@@ -1,6 +1,7 @@
 import { View, Text, Image } from 'react-native'
 import React, { useState, useEffect } from 'react'
 import AsyncStorage from '@react-native-async-storage/async-storage';
+// import { ImageZoom } from '@likashefqet/react-native-image-zoom';
 
 export default function Show({navigation, route}) {
     const [uril, setUri] = useState(null)
@@ -25,7 +26,8 @@ export default function Show({navigation, route}) {
     <View>
         {/* <Text>{title}</Text> */}
         <View style={{display:"flex", height: "100%",justifyContent: "center", alignItems:"center"}}>
-        {uril && <Image source={{uri: uril}} style={{width: 380, aspectRatio : ap }} />}
+          {uril && <Image source={{uri: uril}} style={{width: 380, aspectRatio : ap }} />}
+
         </View>
     </View>
   )
